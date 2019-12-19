@@ -11,6 +11,7 @@ with open(filename) as f:
   for row in reader:
     try:
       current_date = datetime.strptime(row[0], "%Y-%m-%d")
+      print(current_date)
       high = int(row[1])
       low = int(row[3])
     except ValueError:
