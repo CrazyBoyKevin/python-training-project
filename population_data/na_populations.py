@@ -1,6 +1,6 @@
 import  pygal.maps.world
 
-wm = pygal.maps.world.Worldmap()
+wm = pygal.maps.world.World()
 wm.title = 'Population od Countries in North America'
 wm.add('North America',
        {
